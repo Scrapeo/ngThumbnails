@@ -1,0 +1,21 @@
+/* ng-thumbnails - 2016-04-23 */
+.ng-thumbnails-footer {
+  opacity: 1;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  transition: opacity .5s;
+  height: 5%;
+  width: 98%;
+  background-color: #2c4379;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.33
+}
+.ng-thumbnails-span:hover .ng-thumbnails-footer {
+  opacity: 1;
+  background-color: #e46b00;
+}
+.ng-thumbnails-span {
+  display: table-cell;
+  position: relative;
+}
